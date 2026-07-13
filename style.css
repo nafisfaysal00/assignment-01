@@ -160,9 +160,8 @@ padding:30px 0;
 background:#fafafa;
 }
 
-.pricing header{
+.pricing-header{
 text-align:center;
-justify-content:center;
 margin-bottom:50px;
 }
 
@@ -220,4 +219,76 @@ background:#2962ff;
 color:white;
 cursor:pointer;
 border-radius:5px;
+}
+
+
+.highlights{
+padding:90px 0 70px;
+background:#f4f7ff;
+}
+
+.section-intro{
+max-width:720px;
+margin:0 auto 50px;
+text-align:center;
+}
+
+.eyebrow{
+display:inline-block;
+font-size:0.8rem;
+font-weight:700;
+letter-spacing:0.18em;
+text-transform:uppercase;
+color:#2563eb;
+margin-bottom:18px;
+}
+
+.highlights h2{
+font-size:2.65rem;
+line-height:1.1;
+margin:18px 0 16px;
+}
+
+.highlights p{
+max-width:620px;
+margin:0 auto;
+color:#4f5668;
+font-size:1rem;
+line-height:1.75;
+}
+
+.highlights-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:24px;
+}
+
+.feature-card{
+background:white;
+padding:28px;
+border-radius:24px;
+box-shadow:0 22px 60px rgba(15, 23, 42, 0.08);
+}
+
+.feature-icon{
+width:52px;
+height:52px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:16px;
+background:#eff5ff;
+font-size:1.4rem;
+margin-bottom:18px;
+}
+
+.feature-card h3{
+margin:0 0 12px;
+font-size:1.2rem;
+}
+
+.feature-card p{
+margin:0;
+color:#5b637c;
+line-height:1.8;
 }

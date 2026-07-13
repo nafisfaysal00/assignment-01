@@ -1,0 +1,1 @@
+According to my given thumbnail make a beautiful and meaningful relevant section for my page.
